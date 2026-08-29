@@ -1,0 +1,112 @@
+[
+  {
+    "candidate": "candidate_01",
+    "scores": {
+      "python_go": 5,
+      "rest_api_design": 5,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 4,
+      "ownership_collab": 5,
+      "overall": 5
+    }
+  },
+  {
+    "candidate": "candidate_02",
+    "scores": {
+      "python_go": 2,
+      "rest_api_design": 1,
+      "sql_data_modeling": 1,
+      "cloud_infrastructure": 1,
+      "ownership_collab": 3,
+      "overall": 1
+    }
+  },
+  {
+    "candidate": "candidate_03",
+    "scores": {
+      "python_go": 3,
+      "rest_api_design": 2,
+      "sql_data_modeling": 2,
+      "cloud_infrastructure": 3,
+      "ownership_collab": 2,
+      "overall": 2
+    }
+  },
+  {
+    "candidate": "candidate_04",
+    "scores": {
+      "python_go": 5,
+      "rest_api_design": 3,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 1,
+      "ownership_collab": 4,
+      "overall": 3
+    }
+  },
+  {
+    "candidate": "candidate_05",
+    "scores": {
+      "python_go": 5,
+      "rest_api_design": 5,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 5,
+      "ownership_collab": 2,
+      "overall": 3
+    }
+  },
+  {
+    "candidate": "candidate_06",
+    "scores": {
+      "python_go": 4,
+      "rest_api_design": 5,
+      "sql_data_modeling": 3,
+      "cloud_infrastructure": 3,
+      "ownership_collab": 5,
+      "overall": 4
+    }
+  },
+  {
+    "candidate": "candidate_07",
+    "scores": {
+      "python_go": 4,
+      "rest_api_design": 3,
+      "sql_data_modeling": 2,
+      "cloud_infrastructure": 5,
+      "ownership_collab": 4,
+      "overall": 3
+    }
+  },
+  {
+    "candidate": "candidate_08",
+    "scores": {
+      "python_go": 3,
+      "rest_api_design": 2,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 4,
+      "ownership_collab": 4,
+      "overall": 3
+    }
+  },
+  {
+    "candidate": "candidate_09",
+    "scores": {
+      "python_go": 4,
+      "rest_api_design": 5,
+      "sql_data_modeling": 3,
+      "cloud_infrastructure": 3,
+      "ownership_collab": 3,
+      "overall": 3
+    }
+  },
+  {
+    "candidate": "candidate_10",
+    "scores": {
+      "python_go": 3,
+      "rest_api_design": 3,
+      "sql_data_modeling": 2,
+      "cloud_infrastructure": 3,
+      "ownership_collab": 3,
+      "overall": 3
+    }
+  }
+]
