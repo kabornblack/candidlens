@@ -1,0 +1,192 @@
+[
+  {
+    "candidate": "candidate_01",
+    "category_scores": {
+      "python_go": 3,
+      "rest_api_design": 4,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 4,
+      "ownership_collab": 4
+    },
+    "category_rationale": {
+      "python_go": "Meridian Python/FastAPI experience is corroborated and substantial (2.5 yrs, 4k req/s), but the Go claims (Lumen role, Go as production skill) are all uncorroborated with zero interview probing of Go, leaving half the category unverified.",
+      "rest_api_design": "Generic skill claim is corroborated and the more specific contract-tests claim is only uncorroborated, but strong interview performance (versioning, idempotency keys, cursor pagination, unprompted deprecation strategy) provides solid independent evidence lifting the score.",
+      "sql_data_modeling": "Both CV claims are corroborated and the interview provided deep, unprompted technical depth (index rationale, denormalization tradeoffs, rejected design, correct live join with window function) \u2014 fully consistent and strong.",
+      "cloud_infrastructure": "AWS and CI claims are corroborated and Docker uncorroborated but not contradicted; interview descriptions of ECS/RDS setup, blue/green deploys, and safe migrations align well with the claimed stack.",
+      "ownership_collab": "No CV claims to verify, but interview surfaced genuinely positive standalone evidence (mentoring juniors, owning review norms, calm communication) with no red flags, though lack of CV corroboration keeps it just short of top marks."
+    },
+    "overall": 4,
+    "overall_rationale": "No contradicted claims exist anywhere so the integrity cap does not apply; strong corroborated evidence in SQL, solid interview-backed performance in REST API design and cloud infra, positive uncontested collaboration signals, and only the Go half of python_go being unverified pull the raw average of 4 down slightly in emphasis but not below an overall 4."
+  },
+  {
+    "candidate": "candidate_02",
+    "category_scores": {
+      "python_go": 2,
+      "rest_api_design": 2,
+      "sql_data_modeling": 2,
+      "cloud_infrastructure": 2,
+      "ownership_collab": 3
+    },
+    "category_rationale": {
+      "python_go": "Only uncorroborated CV claims (Django app, Python basics) with no interview evidence to confirm or challenge them, so credit is weak/moderate at best.",
+      "rest_api_design": "The single corroborated claim is just 'familiar with REST', but interview showed real gaps (couldn't explain status codes beyond 200/404 or idempotency), so demonstrated weakness pulls this down.",
+      "sql_data_modeling": "Corroborated SQLite skill is offset by clear demonstrated inability in interview (stuck on two-table join, no schema design experience), so score reflects the failure over the label.",
+      "cloud_infrastructure": "Despite 'familiar with AWS' being marked corroborated, interview reveals he has never deployed anything and relies on a senior for deploys, indicating minimal hands-on capability.",
+      "ownership_collab": "Positive interview signals (coachable, good questions, honest about gaps) support a decent score, though the underlying pairing claim is only uncorroborated with no strong ownership evidence."
+    },
+    "overall": 2,
+    "overall_rationale": "No integrity cap applies (no contradicted claims), but nearly every technical category shows the interview undercutting or barely supporting the CV claims (REST, SQL, cloud all show real skill gaps), pulling the overall score down to a 2 despite decent soft-skill signals in ownership_collab."
+  },
+  {
+    "candidate": "candidate_03",
+    "category_scores": {
+      "python_go": 3,
+      "rest_api_design": 1,
+      "sql_data_modeling": 3,
+      "cloud_infrastructure": 3,
+      "ownership_collab": 1
+    },
+    "category_rationale": {
+      "python_go": "Only an uncorroborated 'Python and Flask' skill claim with no interview evidence either way, so credit is weak but not penalized \u2014 moderate score.",
+      "rest_api_design": "CV claim of designing Verdano's core API architecture from the ground up is contradicted; interview showed repeated, specific inability to explain service boundaries, auth decisions, versioning, or tradeoffs \u2014 active demonstrated failure drives this to the bottom.",
+      "sql_data_modeling": "Only an uncorroborated MySQL skill claim, no interview evidence to confirm or refute \u2014 moderate/weak credit.",
+      "cloud_infrastructure": "Uncorroborated AWS and Docker claims with no interview data to corroborate or contradict \u2014 moderate/weak credit.",
+      "ownership_collab": "Contradicted leadership claim (reference and candidate's own words show he was an IC, not a lead) plus a standalone red flag ('I don't really do the people stuff') showing weak collaborative/leadership behavior \u2014 both push this to the bottom."
+    },
+    "overall": 1,
+    "overall_rationale": "Raw average of category scores (~2.2) would suggest a 2, but two contradicted CV claims (fabricated API architecture ownership and fabricated team leadership) together constitute a credibility problem per the integrity cap rule, so overall is capped below the arithmetic average to reflect broken trust."
+  },
+  {
+    "candidate": "candidate_04",
+    "category_scores": {
+      "python_go": 4,
+      "rest_api_design": 2,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 2,
+      "ownership_collab": 4
+    },
+    "category_rationale": {
+      "python_go": "Both CV claims (ledger/reconciliation Python work, strong Python skills) were corroborated, and interview added positive signal (clean code, good instincts on transactions/isolation levels) with no negatives.",
+      "rest_api_design": "The only CV claim was modest ('some REST experience') and corroborated, but interview revealed real limits: only internal service-to-service APIs, never built a versioned external API, and textbook rather than lived answers on pagination/versioning \u2014 demonstrated shallowness caps the score.",
+      "sql_data_modeling": "Core claims (Postgres tuning, ledger schema) corroborated and even the uncorroborated claims (rounding-drift catch, batch job optimization) are well-supported by strong live performance: fast join/window exercise, unprompted further optimization, solid index tradeoff explanation, best-of-batch assessment.",
+      "cloud_infrastructure": "CV claims are all corroborated but describe minimal/no real cloud experience (on-prem only at Kettleworth, no hands-on migration work at Northwind, never provisioned AWS/GCP); willingness to learn is a mild positive but doesn't offset the demonstrated lack of cloud skill.",
+      "ownership_collab": "No CV claims to check, but interview standalone evidence is uniformly positive \u2014 calm/precise communication, good collaboration, a constructive code-review disagreement story, and no red flags."
+    },
+    "overall": 3,
+    "overall_rationale": "Strong, corroborated Python and standout SQL skills are offset by shallow REST API depth and minimal real cloud experience; no contradicted claims exist anywhere so no integrity cap applies, giving a raw-average-consistent overall of 3."
+  },
+  {
+    "candidate": "candidate_05",
+    "category_scores": {
+      "python_go": 4,
+      "rest_api_design": 5,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 5,
+      "ownership_collab": 2
+    },
+    "category_rationale": {
+      "python_go": "Go strong-skill claim corroborated and interview showed deep, specific concurrency knowledge; however, both job histories and the pricing-service rewrite remain uncorroborated, so full marks aren't warranted.",
+      "rest_api_design": "Single corroborated claim on REST/gRPC design plus deep, specific interview answers on idempotency fully support a high score with no negative evidence.",
+      "sql_data_modeling": "PostgreSQL skill corroborated and candidate cleanly completed a live SQL exercise with solid query-plan explanation, demonstrating real proficiency.",
+      "cloud_infrastructure": "Multiple corroborated claims (AWS, Kubernetes, Terraform/EKS ownership) are reinforced by detailed, confident interview walkthroughs of SQS, K8s tuning, Terraform, and an RDS incident \u2014 strong, consistent evidence.",
+      "ownership_collab": "No CV claims to verify, but interview surfaced concrete standalone red flags (dismissiveness, talking down to the panel, interrupting) \u2014 per rule 4 this is moderate negative evidence pulling the score down even absent a contradicted claim."
+    },
+    "overall": 4,
+    "overall_rationale": "No contradicted CV claims exist so the integrity cap doesn't trigger, but strong technical categories (rest_api_design, sql_data_modeling, cloud_infrastructure all 5, python_go 4) are offset by clear behavioural concerns in ownership_collab (2), landing overall at 4 rather than a higher score."
+  },
+  {
+    "candidate": "candidate_06",
+    "category_scores": {
+      "python_go": 4,
+      "rest_api_design": 5,
+      "sql_data_modeling": 3,
+      "cloud_infrastructure": 4,
+      "ownership_collab": 5
+    },
+    "category_rationale": {
+      "python_go": "Corroborated Flask/Python API claim gives solid positive evidence; the general 'solid skill' claim is uncorroborated but not contradicted, and no negative interview signal exists in this area.",
+      "rest_api_design": "All three CV claims corroborated and interview showed clear, specific reasoning on versioning, error envelopes, and the cursor-pagination decision \u2014 strong alignment between claims and demonstrated skill.",
+      "sql_data_modeling": "PostgreSQL claim is corroborated and a join was executed correctly, but the interview also showed she needed a hint on window functions and admitted query tuning isn't her strong area \u2014 real demonstrated limits that pull the score down from what the claim alone would suggest.",
+      "cloud_infrastructure": "Core GCP claim (Cloud Run/Cloud SQL/Pub-Sub) is corroborated by direct interview evidence of deployment and incident handling; Docker/GitHub Actions claims are merely uncorroborated (not contradicted), and the acknowledged gap in infra-as-code is a specific, disclosed limitation rather than a failure, so it's a moderate rather than severe discount.",
+      "ownership_collab": "Onboarding guide and pairing/mentoring claims are corroborated, and the interview independently reinforced strong ownership (thoughtful feedback response, excellent team-fit); the promotion claim is only uncorroborated, not contradicted, so it doesn't drag the score down."
+    },
+    "overall": 4,
+    "overall_rationale": "No CV claim was contradicted in any category (only corroborated or uncorroborated), so the integrity cap does not apply; strong, well-corroborated performance in REST API design and ownership/collaboration, solid but evidence-light Python/Go, and moderate demonstrated gaps in SQL tuning and infra-as-code depth average out to a strong overall candidate."
+  },
+  {
+    "candidate": "candidate_07",
+    "category_scores": {
+      "python_go": 4,
+      "rest_api_design": 4,
+      "sql_data_modeling": 2,
+      "cloud_infrastructure": 4,
+      "ownership_collab": 4
+    },
+    "category_rationale": {
+      "python_go": "Corroborated strong Python skill plus good interview performance on async task design; one uncorroborated platform-building claim adds mild extra credit.",
+      "rest_api_design": "Two corroborated claims (Python APIs, REST skill) backed by solid interview answers on structure and API experience, though depth on versioning/status codes was only adequate.",
+      "sql_data_modeling": "Only ORM familiarity is corroborated, but interview showed active inability to write a basic join, explain index usage, or reason about normalization \u2014 demonstrated weakness overrides the neutral crosscheck label and drives the score down.",
+      "cloud_infrastructure": "Deep AWS knowledge corroborated and demonstrated fluently in interview (IAM, Step Functions), plus a corroborated cost-reduction result; several uncorroborated tooling claims (Docker, K8s, CI/CD, deploy pipeline) neither help nor hurt much given the strong core evidence.",
+      "ownership_collab": "No CV claims to check, but interview showed clear, collaborative communication and healthy review habits with no red flags, supporting a solid score."
+    },
+    "overall": 3,
+    "overall_rationale": "Strong, corroborated technical depth in Python/Go, REST API design, and cloud infrastructure, plus good collaborative signals, is undercut by a clear demonstrated SQL weakness (failed live join, no indexing/normalization reasoning) that pulls the average down; no integrity cap applies since there are no contradicted claims, so overall lands at 3 reflecting the SQL gap against otherwise solid performance."
+  },
+  {
+    "candidate": "candidate_08",
+    "category_scores": {
+      "python_go": 4,
+      "rest_api_design": 2,
+      "sql_data_modeling": 5,
+      "cloud_infrastructure": 5,
+      "ownership_collab": 3
+    },
+    "category_rationale": {
+      "python_go": "Corroborated 2-year Python backend role and strong-Python claim; interview confirms solidity for services, with only a minor note on 'script-like' style.",
+      "rest_api_design": "CV claim of 'some REST skill' is weak to begin with and interview reveals concrete gaps: never owned a versioned API, thin idempotency/evolution answers, and self-admitted lack of focus on APIs \u2014 demonstrated weakness dominates.",
+      "sql_data_modeling": "Multiple corroborated strong-SQL and modeling claims plus uncorroborated but plausible dbt/Airflow and warehouse-schema claims, reinforced by standout interview performance (best in batch, live query dissection, comfortable with partitioning/SCDs).",
+      "cloud_infrastructure": "All CV claims (BigQuery, GCP stack, 2TB/day pipeline) corroborated and interview confirms real Dataflow/Composer/Cloud Run/Terraform experience \u2014 consistent strong signal.",
+      "ownership_collab": "No CV claims to check; interview mentions only generic positives (good communication, cross-team collaboration) with no concrete ownership examples or red flags, so evidence is thin but not negative."
+    },
+    "overall": 4,
+    "overall_rationale": "No contradicted claims exist so the integrity cap doesn't apply; overall reflects strong SQL/cloud/python evidence offset by a clear, interview-demonstrated weakness in REST API design and thin (though not negative) ownership evidence."
+  },
+  {
+    "candidate": "candidate_09",
+    "category_scores": {
+      "python_go": 5,
+      "rest_api_design": 5,
+      "sql_data_modeling": 3,
+      "cloud_infrastructure": 3,
+      "ownership_collab": 3
+    },
+    "category_rationale": {
+      "python_go": "Both employment claims and skill levels (strong Go, working Python) were corroborated in interview with no contradicting signals.",
+      "rest_api_design": "All CV claims corroborated, and interview added concrete detail (idempotency/dedupe discussion, versioning) confirming strong ability.",
+      "sql_data_modeling": "Postgres skill corroborated and candidate wrote a correct join with reasonable index reasoning, but interview also showed he has no real schema-design ownership ('I mostly work against schemas other people set'), pulling the score down from what the join success alone would suggest.",
+      "cloud_infrastructure": "AWS corroborated and ECS deployment comfort shown, but Docker claim was uncorroborated and interview revealed weak IaC/networking knowledge and no infra ownership, offsetting the positive evidence.",
+      "ownership_collab": "No CV claims to corroborate or contradict, but standalone interview evidence of terse, blunt, hard-to-elicit communication is a moderate behavioural red flag under rule 4, without being a credibility violation."
+    },
+    "overall": 4,
+    "overall_rationale": "Raw category average (~3.8) rounds to 4; only one contradicted CV claim exists overall (Quillstone tenure, a general/context claim, not in ownership_collab or reaching the 2+ threshold), so the integrity cap in rule 5 does not apply, though the tenure discrepancy remains a reference-check flag worth noting."
+  },
+  {
+    "candidate": "candidate_10",
+    "category_scores": {
+      "python_go": 4,
+      "rest_api_design": 3,
+      "sql_data_modeling": 2,
+      "cloud_infrastructure": 3,
+      "ownership_collab": 4
+    },
+    "category_rationale": {
+      "python_go": "Both CV claims (Django/FastAPI experience, Halcyon APIs) were corroborated, and interview confirmed competence with real shipped endpoints \u2014 strong, consistent evidence.",
+      "rest_api_design": "Three corroborated claims (Pinemark REST services, billing-export API shipped end-to-end) give solid credit, but interview design answers were only conventional with no strong opinions on versioning/idempotency, capping depth.",
+      "sql_data_modeling": "Only a generic PostgreSQL skill claim (corroborated) with no data-modeling claim; interview showed the candidate needed a nudge on window functions and admitted no ownership of a data model, so demonstrated depth is weak despite completing the basic join.",
+      "cloud_infrastructure": "AWS usage is corroborated and interview confirms EC2/RDS/CloudWatch experience; Docker and GitLab CI remain uncorroborated (partial credit), and the interview revealed no IaC/from-scratch provisioning experience, limiting the score.",
+      "ownership_collab": "No CV claims to check, but interview evidence (code review participation, organizing a bug-bash, good handling-feedback answer, no red flags) is positive standalone evidence supporting a good score."
+    },
+    "overall": 3,
+    "overall_rationale": "No contradicted claims exist anywhere so the integrity cap does not apply; raw category average (~3.2) reflects solid core coding/API skills offset by shallow SQL/data-modeling depth and limited infra breadth, yielding an overall score of 3."
+  }
+]
