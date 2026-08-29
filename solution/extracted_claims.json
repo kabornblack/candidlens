@@ -1,0 +1,1184 @@
+[
+  {
+    "candidate": "candidate_01",
+    "cv_claims": [
+      {
+        "text": "4.5 years professional backend development experience",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer at Meridian Freight Systems for 2.5 yrs, Python/FastAPI services for shipment tracking, ~4k req/s peak",
+        "category": "python_go"
+      },
+      {
+        "text": "Backend Engineer at Lumen Cartography for 1.5 yrs, Go microservices for a mapping tile API",
+        "category": "python_go"
+      },
+      {
+        "text": "Software Engineer Intern \u2192 Junior Engineer at Halcyon Data Co. for 0.5 yr",
+        "category": "general"
+      },
+      {
+        "text": "Python listed as primary skill",
+        "category": "python_go"
+      },
+      {
+        "text": "Go listed as production skill",
+        "category": "python_go"
+      },
+      {
+        "text": "REST API design listed as a skill",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "PostgreSQL + schema design listed as a skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "AWS (ECS, RDS, S3, CloudWatch) listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Docker listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "GitHub Actions CI listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Redesigned shipment-events schema and query layer at Meridian, cutting p95 latency from 900ms to 210ms",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Introduced contract tests and a staged rollout process for the public tracking API, reducing breaking-change incidents to zero over 18 months",
+        "category": "rest_api_design"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Walked through the Meridian schema redesign end to end",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Explained the composite index choice",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Explained why they denormalized the carrier lookup",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Explained the tradeoff they rejected (event sourcing, too heavy for the team)",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Gave a clean answer on API versioning",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Discussed idempotency keys for the create-shipment endpoint",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Discussed pagination via cursors over offsets",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Unprompted, mentioned how they'd deprecate a field",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Wrote a correct 3-table join with a window function for 'latest status per shipment' without hints",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Reasoned about the query plan out loud",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Described their ECS + RDS setup",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Described blue/green deploys via GitHub Actions",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Described how they handle DB migrations safely",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Talked about mentoring two juniors at Meridian",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Mentioned running their team's code review norms doc",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Came across as a calm, concise communicator",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "No red flags noted",
+        "category": "general"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_02",
+    "cv_claims": [
+      {
+        "text": "~1 year professional experience (13 months)",
+        "category": "general"
+      },
+      {
+        "text": "Preceded by a 12-week coding bootcamp",
+        "category": "general"
+      },
+      {
+        "text": "Junior Software Engineer at Pinemark Health for 10 months",
+        "category": "general"
+      },
+      {
+        "text": "Built small internal Django app for clinic scheduling",
+        "category": "python_go"
+      },
+      {
+        "text": "Work was mostly bug fixes and template work",
+        "category": "general"
+      },
+      {
+        "text": "Software Engineering Intern at Pinemark Health for 3 months",
+        "category": "general"
+      },
+      {
+        "text": "Paired with a senior on ticket cleanup",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Skill: Python (Django basics)",
+        "category": "python_go"
+      },
+      {
+        "text": "Skill: HTML/CSS",
+        "category": "general"
+      },
+      {
+        "text": "Skill: some JavaScript",
+        "category": "general"
+      },
+      {
+        "text": "Skill: SQLite",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Skill: Git",
+        "category": "general"
+      },
+      {
+        "text": "Described as 'familiar with' AWS",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Described as 'familiar with' REST",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Claimed fixing 40+ bugs in the scheduling app during first year",
+        "category": "general"
+      },
+      {
+        "text": "Claimed adding a CSV export feature to the admin dashboard",
+        "category": "general"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Could describe what a REST API is at a high level",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Could not explain status code choices beyond 200/404",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Could not explain what idempotency means",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Wrote a basic SELECT with a WHERE clause",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Got stuck on a two-table join and asked to skip it",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Said 'the tables were already there', indicating no schema design experience",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Never deployed anything himself",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Said deploys at Pinemark are done by a senior",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Knows AWS exists and has clicked around the console once",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Communication described as friendly and coachable",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Asked good clarifying questions",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Was honest about what he doesn't know",
+        "category": "ownership_collab"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_03",
+    "cv_claims": [
+      {
+        "text": "5 years professional backend development",
+        "category": "general"
+      },
+      {
+        "text": "Senior Backend Engineer at Verdano Logistics (2 yrs) working on routing and dispatch services",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer at Tessellate Labs (2 yrs) working on internal tooling and integrations",
+        "category": "general"
+      },
+      {
+        "text": "Software Engineer at Quillstone Software (1 yr)",
+        "category": "general"
+      },
+      {
+        "text": "Skills include Python and Flask",
+        "category": "python_go"
+      },
+      {
+        "text": "Skills include REST APIs",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Skills include MySQL",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Skills include AWS (EC2, Lambda)",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Skills include Docker",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Claims to have designed Verdano's core API architecture from the ground up, including service boundaries, auth model, and data contracts",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Claims to have led a team of 5 engineers delivering the dispatch platform rewrite on schedule",
+        "category": "ownership_collab"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Gave a vague box-and-arrows diagram when asked to whiteboard the Verdano API architecture",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Could not explain why services were split where they were",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Could not explain who made the auth decision, said 'that was kind of a group thing, it evolved'",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Could not describe the versioning strategy for the data contracts",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Could not describe a single concrete tradeoff regarding the data contracts",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Deflected question by saying 'the docs would have that'",
+        "category": "general"
+      },
+      {
+        "text": "Backchannel reference describes Marcus as 'a solid individual contributor on the dispatch team \u2014 he owned the ETA calculation module'",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Reference names a different person as the tech lead",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Reference makes no mention of Marcus leading anyone",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "When asked about handling a disagreement between two reports, said 'I don't really do the people stuff, I just made sure my parts landed'",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Communication was confident and personable, interviewed well",
+        "category": "general"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_04",
+    "cv_claims": [
+      {
+        "text": "4 years professional backend development experience",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer at Northwind Payments for 2.5 years",
+        "category": "general"
+      },
+      {
+        "text": "Worked on reconciliation and ledger services in Python at Northwind",
+        "category": "python_go"
+      },
+      {
+        "text": "Software Engineer at Kettleworth Robotics for 1.5 years",
+        "category": "general"
+      },
+      {
+        "text": "Worked on on-prem fleet telemetry backend at Kettleworth",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Strong Python skills",
+        "category": "python_go"
+      },
+      {
+        "text": "PostgreSQL with advanced query tuning skills",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Experience with dimensional and normalized data modeling",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Some REST experience building internal APIs",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Linux/on-prem ops experience",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Minimal cloud experience",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Built the double-entry ledger schema and reconciliation queries at Northwind",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Caught a class of rounding drift that had gone unnoticed for months",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Cut a nightly batch job from 6 hrs to 40 min through query and index work",
+        "category": "sql_data_modeling"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Nailed the join + window function exercise fast",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Optimized the exercise further unprompted",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Explained the index tradeoff and when a partial index helps",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Described as the best SQL of the batch so far",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Python code was clean",
+        "category": "python_go"
+      },
+      {
+        "text": "Good instincts on transactions and isolation levels for the ledger work",
+        "category": "python_go"
+      },
+      {
+        "text": "Has only built internal service-to-service REST endpoints",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Never built a versioned external API",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Answers on pagination/versioning were textbook, not lived",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Kettleworth was fully on-prem",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Northwind is mid-migration to cloud",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Yuki hasn't been hands-on with the cloud migration",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Never provisioned AWS/GCP resources",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Willing to learn cloud",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Communication is calm and precise",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Collaborates well",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Described a constructive code-review disagreement resolution",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "No red flags on attitude",
+        "category": "ownership_collab"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_05",
+    "cv_claims": [
+      {
+        "text": "5 years professional backend development",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer, Cirrus Retail Group (3 yrs) \u2014 Go services for inventory and pricing, high-traffic checkout path",
+        "category": "python_go"
+      },
+      {
+        "text": "Backend Engineer, Brightloom Media (2 yrs) \u2014 Python/Go APIs for a content delivery product",
+        "category": "python_go"
+      },
+      {
+        "text": "Go listed as a strong skill",
+        "category": "python_go"
+      },
+      {
+        "text": "Python listed as a skill",
+        "category": "python_go"
+      },
+      {
+        "text": "REST and gRPC API design listed as a skill",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "PostgreSQL listed as a skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "AWS (EKS, RDS, SQS, Terraform) listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Kubernetes listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "CI/CD listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Rebuilt the pricing service in Go, taking p99 from 400 ms to 60 ms under 3x traffic",
+        "category": "python_go"
+      },
+      {
+        "text": "Owned the Terraform modules and EKS setup for the checkout platform",
+        "category": "cloud_infrastructure"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Gave deep, specific answers on Go concurrency",
+        "category": "python_go"
+      },
+      {
+        "text": "Gave deep, specific answers on API idempotency",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Gave deep, specific answers on backpressure with SQS",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Gave deep, specific answers on Kubernetes resource tuning",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Completed a live SQL exercise cleanly with a good query-plan explanation",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Walked through the Terraform layout with clarity",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Walked through a real incident involving RDS failover with clarity",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Said, when asked about a code-review conflict, \"I usually just tell them the right way to do it \u2014 I'm not going to approve bad code to be nice.\"",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Was dismissive about a past teammate's design, calling it \"obviously wrong\"",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Panel felt talked-down-to during the design round",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Interrupted the interviewer twice to correct minor points",
+        "category": "ownership_collab"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_06",
+    "cv_claims": [
+      {
+        "text": "3 years professional backend development experience",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer at Oxbow Analytics for 2 years",
+        "category": "general"
+      },
+      {
+        "text": "Built Python/Flask APIs for a reporting product",
+        "category": "python_go"
+      },
+      {
+        "text": "Junior Backend Engineer at Oxbow Analytics for 1 year, same team",
+        "category": "general"
+      },
+      {
+        "text": "Promoted from Junior Backend Engineer to Backend Engineer",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Lists Python as a solid skill",
+        "category": "python_go"
+      },
+      {
+        "text": "Lists REST API design as a key skill",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Lists PostgreSQL as a key skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Lists GCP skills including Cloud Run, Cloud SQL, and Pub/Sub",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Lists Docker as a key skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Lists GitHub Actions as a key skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Designed and shipped the v2 reporting API",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Created a cursor-pagination scheme adopted as the team standard",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Started the team's onboarding guide",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Runs pairing sessions for new hires",
+        "category": "ownership_collab"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Has 3 years of experience, all at one company",
+        "category": "general"
+      },
+      {
+        "text": "Gave clear reasoning on API versioning",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Gave clear reasoning on error envelopes",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Explained why she chose cursor pagination for the reporting API",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Got a SQL join right",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Needed a hint on a window function",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Said deep query tuning isn't her strong area yet",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Has deployed and operated Cloud Run services",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Handled a Pub/Sub backlog incident",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Has not done infra-as-code beyond basics",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Wrote the onboarding guide",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Actively mentors",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Gave a thoughtful answer on receiving hard review feedback",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Team-fit was observed as excellent",
+        "category": "ownership_collab"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_07",
+    "cv_claims": [
+      {
+        "text": "4 years professional backend / platform development experience",
+        "category": "general"
+      },
+      {
+        "text": "Platform Engineer at Cirrus Retail Group for 2 years",
+        "category": "general"
+      },
+      {
+        "text": "Built internal developer platform, deploy tooling, and service scaffolding in Python",
+        "category": "python_go"
+      },
+      {
+        "text": "Backend Engineer at Brightloom Media for 2 years",
+        "category": "general"
+      },
+      {
+        "text": "Built Python APIs for media ingestion",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Python skill listed as strong",
+        "category": "python_go"
+      },
+      {
+        "text": "AWS skills listed as deep: ECS, Lambda, Step Functions, CloudFormation, IAM",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Docker listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Kubernetes listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "CI/CD listed as a skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "REST APIs listed as a skill",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "ORMs (SQLAlchemy, Django ORM) listed as a skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Built the self-service deploy pipeline used by ~30 engineers, cutting deploy time from 45 min to 6 min",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Reduced AWS spend 22% through right-sizing and Step Functions refactor",
+        "category": "cloud_infrastructure"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Walked through IAM boundary design with fluency",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Walked through a Step Functions refactor with fluency",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Described as having genuinely deep AWS knowledge",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Python described as strong",
+        "category": "python_go"
+      },
+      {
+        "text": "Gave good answers on API structure",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Gave good answers on async task design",
+        "category": "python_go"
+      },
+      {
+        "text": "Relies entirely on the ORM",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Said 'I basically never write raw SQL'",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Struggled to write a two-table join by hand in the live exercise",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Could not explain what index the query would use",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Had not thought about normalization tradeoffs",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Has consumed and built many APIs",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Answers on versioning and status codes were fine if not deep",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Communication described as clear and collaborative",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Described healthy review habits",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "No red flags on attitude observed",
+        "category": "ownership_collab"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_08",
+    "cv_claims": [
+      {
+        "text": "5 years professional experience, ~3 in application backend, prior 2 in data engineering",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer at Pinemark Health for 2 years, building Python services for patient-data pipelines and internal APIs",
+        "category": "python_go"
+      },
+      {
+        "text": "Data Engineer at Oxbow Analytics for 2 years, doing ETL, warehouse modeling, and dbt",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Analytics Engineer at Oxbow Analytics for 1 year",
+        "category": "general"
+      },
+      {
+        "text": "Claims strong Python skill",
+        "category": "python_go"
+      },
+      {
+        "text": "Claims very strong SQL skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Claims dimensional and relational data modeling skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Claims BigQuery skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Claims GCP skills including Dataflow, Cloud Composer, Cloud Run, GCS",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Claims Airflow/dbt skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Claims some REST skill",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Modeled the patient-events warehouse schema at Pinemark, now source of truth for 6 downstream teams",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Built a GCP-based ingestion pipeline processing ~2 TB/day",
+        "category": "cloud_infrastructure"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "SQL and data modeling were considered the best in the batch",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Dissected a live query during the interview",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Discussed partitioning, slowly-changing dimensions, and normalization tradeoffs comfortably",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Cloud skills are strong on GCP",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Has real Dataflow/Composer/Cloud Run experience",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Has done IaC with Terraform for data infra",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Python is solid for services",
+        "category": "python_go"
+      },
+      {
+        "text": "Coding style leans 'script-like'",
+        "category": "python_go"
+      },
+      {
+        "text": "Has less experience with long-lived API service design",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Has built a few internal endpoints",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Never owned a versioned external API",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Answers on idempotency and API evolution were thin",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Said 'APIs aren't where I've spent most of my time'",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Communication is good",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Collaborates across teams by nature of the data role",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "No red flags noted",
+        "category": "general"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_09",
+    "cv_claims": [
+      {
+        "text": "5 years professional backend development experience",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer at Northwind Payments for 14 months, Go payment-routing services",
+        "category": "python_go"
+      },
+      {
+        "text": "Backend Engineer at Tessellate Labs for 11 months, Go/Python API gateway work",
+        "category": "python_go"
+      },
+      {
+        "text": "Backend Engineer at Brightloom Media for 1 year, content APIs",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Backend Engineer at Quillstone Software for 1.5 years, first backend role",
+        "category": "general"
+      },
+      {
+        "text": "Strong Go skill",
+        "category": "python_go"
+      },
+      {
+        "text": "Working Python skill",
+        "category": "python_go"
+      },
+      {
+        "text": "REST + gRPC API design skill",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "PostgreSQL skill",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "AWS (ECS, ALB, RDS) skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Docker skill",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Designed the idempotent payment-submission API at Northwind, including retry and dedupe semantics",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Cut tail latency on the routing service 40% by reworking connection pooling",
+        "category": "general"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "REST/API design is strong",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "The idempotency and dedupe discussion was concrete and correct",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Good on versioning and backward compatibility",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Go is strong",
+        "category": "python_go"
+      },
+      {
+        "text": "Python is functional but not a first language for him",
+        "category": "python_go"
+      },
+      {
+        "text": "Wrote a correct join",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Reasonable index reasoning",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "No real schema-design ownership",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Said 'I mostly work against schemas other people set.'",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Comfortable deploying to ECS",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Less sure on networking/IaC",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Hasn't owned infra",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Communication is terse and a bit blunt, but not rude",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Answers are short, sometimes needs prompting to elaborate",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "4 jobs in 5 years, none over ~14 months",
+        "category": "general"
+      },
+      {
+        "text": "Reasons given for job changes were two layoffs and one relocation",
+        "category": "general"
+      },
+      {
+        "text": "Noted as worth a reference check on tenure/fit",
+        "category": "general"
+      }
+    ]
+  },
+  {
+    "candidate": "candidate_10",
+    "cv_claims": [
+      {
+        "text": "3.5 years professional backend development experience",
+        "category": "general"
+      },
+      {
+        "text": "Backend Engineer at Halcyon Data Co. for 2 years",
+        "category": "general"
+      },
+      {
+        "text": "Built Python/Django APIs for a B2B dashboard product at Halcyon",
+        "category": "python_go"
+      },
+      {
+        "text": "Backend Engineer at Pinemark Health for 1.5 years",
+        "category": "general"
+      },
+      {
+        "text": "Built internal REST services for scheduling and billing at Pinemark",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Skill: Python (Django, some FastAPI)",
+        "category": "python_go"
+      },
+      {
+        "text": "Skill: REST APIs",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Skill: PostgreSQL",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Skill: AWS (EC2, RDS, S3, basic CloudWatch)",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Skill: Docker",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Skill: GitLab CI",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Shipped the billing-export API at Pinemark end to end",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Helped migrate the Halcyon monolith's background jobs to a queue, reducing timeout errors",
+        "category": "general"
+      }
+    ],
+    "interview_claims": [
+      {
+        "text": "Described as competent in Python/REST, shipped real endpoints",
+        "category": "python_go"
+      },
+      {
+        "text": "Design answers were correct but conventional, with no strong opinions on versioning or idempotency",
+        "category": "rest_api_design"
+      },
+      {
+        "text": "Got the join done in a SQL exercise",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Needed a nudge on a window function",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Has done light schema work but has not owned a data model",
+        "category": "sql_data_modeling"
+      },
+      {
+        "text": "Has deployed to EC2/RDS",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Has read CloudWatch dashboards",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Has never provisioned infra from scratch or done IaC",
+        "category": "cloud_infrastructure"
+      },
+      {
+        "text": "Participates in code review",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Gave a fine answer on handling feedback",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "Organized a bug-bash",
+        "category": "ownership_collab"
+      },
+      {
+        "text": "No red flags observed in collaboration",
+        "category": "ownership_collab"
+      }
+    ]
+  }
+]
