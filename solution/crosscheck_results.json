@@ -1,0 +1,750 @@
+[
+  {
+    "candidate": "candidate_01",
+    "claim_checks": [
+      {
+        "cv_claim": "4.5 years professional backend development experience",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Meridian Freight Systems for 2.5 yrs, Python/FastAPI services for shipment tracking, ~4k req/s peak",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Lumen Cartography for 1.5 yrs, Go microservices for a mapping tile API",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Software Engineer Intern \u2192 Junior Engineer at Halcyon Data Co. for 0.5 yr",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Python listed as primary skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Go listed as production skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "REST API design listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "PostgreSQL + schema design listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "AWS (ECS, RDS, S3, CloudWatch) listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Docker listed as a skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "GitHub Actions CI listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Redesigned shipment-events schema and query layer at Meridian, cutting p95 latency from 900ms to 210ms",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Introduced contract tests and a staged rollout process for the public tracking API, reducing breaking-change incidents to zero over 18 months",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  },
+  {
+    "candidate": "candidate_02",
+    "claim_checks": [
+      {
+        "cv_claim": "~1 year professional experience (13 months)",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Preceded by a 12-week coding bootcamp",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Junior Software Engineer at Pinemark Health for 10 months",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built small internal Django app for clinic scheduling",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Work was mostly bug fixes and template work",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Software Engineering Intern at Pinemark Health for 3 months",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Paired with a senior on ticket cleanup",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: Python (Django basics)",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: HTML/CSS",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: some JavaScript",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: SQLite",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: Git",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Described as 'familiar with' AWS",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Described as 'familiar with' REST",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claimed fixing 40+ bugs in the scheduling app during first year",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claimed adding a CSV export feature to the admin dashboard",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  },
+  {
+    "candidate": "candidate_03",
+    "claim_checks": [
+      {
+        "cv_claim": "5 years professional backend development",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Senior Backend Engineer at Verdano Logistics (2 yrs) working on routing and dispatch services",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Tessellate Labs (2 yrs) working on internal tooling and integrations",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Software Engineer at Quillstone Software (1 yr)",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skills include Python and Flask",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skills include REST APIs",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skills include MySQL",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skills include AWS (EC2, Lambda)",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skills include Docker",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims to have designed Verdano's core API architecture from the ground up, including service boundaries, auth model, and data contracts",
+        "status": "contradicted",
+        "conflicting_interview_claims": [
+          "Gave a vague box-and-arrows diagram when asked to whiteboard the Verdano API architecture",
+          "Could not explain why services were split where they were",
+          "Could not explain who made the auth decision, said 'that was kind of a group thing, it evolved'",
+          "Could not describe the versioning strategy for the data contracts",
+          "Could not describe a single concrete tradeoff regarding the data contracts"
+        ]
+      },
+      {
+        "cv_claim": "Claims to have led a team of 5 engineers delivering the dispatch platform rewrite on schedule",
+        "status": "contradicted",
+        "conflicting_interview_claims": [
+          "Backchannel reference describes Marcus as 'a solid individual contributor on the dispatch team \u2014 he owned the ETA calculation module'",
+          "Reference names a different person as the tech lead",
+          "Reference makes no mention of Marcus leading anyone",
+          "When asked about handling a disagreement between two reports, said 'I don't really do the people stuff, I just made sure my parts landed'"
+        ]
+      }
+    ],
+    "discrepancy_summary": [
+      "CV claims sole ownership of designing Verdano's API architecture, but candidate could not explain service boundaries, auth decisions, versioning, or tradeoffs behind that design",
+      "CV claims leading a team of 5 engineers, but reference and candidate's own comments describe an individual-contributor role with someone else as tech lead"
+    ]
+  },
+  {
+    "candidate": "candidate_04",
+    "claim_checks": [
+      {
+        "cv_claim": "4 years professional backend development experience",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Northwind Payments for 2.5 years",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Worked on reconciliation and ledger services in Python at Northwind",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Software Engineer at Kettleworth Robotics for 1.5 years",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Worked on on-prem fleet telemetry backend at Kettleworth",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Strong Python skills",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "PostgreSQL with advanced query tuning skills",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Experience with dimensional and normalized data modeling",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Some REST experience building internal APIs",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Linux/on-prem ops experience",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Minimal cloud experience",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built the double-entry ledger schema and reconciliation queries at Northwind",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Caught a class of rounding drift that had gone unnoticed for months",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Cut a nightly batch job from 6 hrs to 40 min through query and index work",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  },
+  {
+    "candidate": "candidate_05",
+    "claim_checks": [
+      {
+        "cv_claim": "5 years professional backend development",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer, Cirrus Retail Group (3 yrs) \u2014 Go services for inventory and pricing, high-traffic checkout path",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer, Brightloom Media (2 yrs) \u2014 Python/Go APIs for a content delivery product",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Go listed as a strong skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Python listed as a skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "REST and gRPC API design listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "PostgreSQL listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "AWS (EKS, RDS, SQS, Terraform) listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Kubernetes listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "CI/CD listed as a skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Rebuilt the pricing service in Go, taking p99 from 400 ms to 60 ms under 3x traffic",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Owned the Terraform modules and EKS setup for the checkout platform",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  },
+  {
+    "candidate": "candidate_06",
+    "claim_checks": [
+      {
+        "cv_claim": "3 years professional backend development experience",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Oxbow Analytics for 2 years",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built Python/Flask APIs for a reporting product",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Junior Backend Engineer at Oxbow Analytics for 1 year, same team",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Promoted from Junior Backend Engineer to Backend Engineer",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Lists Python as a solid skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Lists REST API design as a key skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Lists PostgreSQL as a key skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Lists GCP skills including Cloud Run, Cloud SQL, and Pub/Sub",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Lists Docker as a key skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Lists GitHub Actions as a key skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Designed and shipped the v2 reporting API",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Created a cursor-pagination scheme adopted as the team standard",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Started the team's onboarding guide",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Runs pairing sessions for new hires",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  },
+  {
+    "candidate": "candidate_07",
+    "claim_checks": [
+      {
+        "cv_claim": "4 years professional backend / platform development experience",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Platform Engineer at Cirrus Retail Group for 2 years",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built internal developer platform, deploy tooling, and service scaffolding in Python",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Brightloom Media for 2 years",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built Python APIs for media ingestion",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Python skill listed as strong",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "AWS skills listed as deep: ECS, Lambda, Step Functions, CloudFormation, IAM",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Docker listed as a skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Kubernetes listed as a skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "CI/CD listed as a skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "REST APIs listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "ORMs (SQLAlchemy, Django ORM) listed as a skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built the self-service deploy pipeline used by ~30 engineers, cutting deploy time from 45 min to 6 min",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Reduced AWS spend 22% through right-sizing and Step Functions refactor",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  },
+  {
+    "candidate": "candidate_08",
+    "claim_checks": [
+      {
+        "cv_claim": "5 years professional experience, ~3 in application backend, prior 2 in data engineering",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Pinemark Health for 2 years, building Python services for patient-data pipelines and internal APIs",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Data Engineer at Oxbow Analytics for 2 years, doing ETL, warehouse modeling, and dbt",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Analytics Engineer at Oxbow Analytics for 1 year",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims strong Python skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims very strong SQL skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims dimensional and relational data modeling skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims BigQuery skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims GCP skills including Dataflow, Cloud Composer, Cloud Run, GCS",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims Airflow/dbt skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Claims some REST skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Modeled the patient-events warehouse schema at Pinemark, now source of truth for 6 downstream teams",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built a GCP-based ingestion pipeline processing ~2 TB/day",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  },
+  {
+    "candidate": "candidate_09",
+    "claim_checks": [
+      {
+        "cv_claim": "5 years professional backend development experience",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Northwind Payments for 14 months, Go payment-routing services",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Tessellate Labs for 11 months, Go/Python API gateway work",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Brightloom Media for 1 year, content APIs",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Quillstone Software for 1.5 years, first backend role",
+        "status": "contradicted",
+        "conflicting_interview_claims": [
+          "4 jobs in 5 years, none over ~14 months"
+        ]
+      },
+      {
+        "cv_claim": "Strong Go skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Working Python skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "REST + gRPC API design skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "PostgreSQL skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "AWS (ECS, ALB, RDS) skill",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Docker skill",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Designed the idempotent payment-submission API at Northwind, including retry and dedupe semantics",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Cut tail latency on the routing service 40% by reworking connection pooling",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": [
+      "CV lists the Quillstone Software role as 1.5 years (18 months), but interview states none of the four jobs exceeded ~14 months, directly conflicting with this duration."
+    ]
+  },
+  {
+    "candidate": "candidate_10",
+    "claim_checks": [
+      {
+        "cv_claim": "3.5 years professional backend development experience",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Halcyon Data Co. for 2 years",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built Python/Django APIs for a B2B dashboard product at Halcyon",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Backend Engineer at Pinemark Health for 1.5 years",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Built internal REST services for scheduling and billing at Pinemark",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: Python (Django, some FastAPI)",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: REST APIs",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: PostgreSQL",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: AWS (EC2, RDS, S3, basic CloudWatch)",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: Docker",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Skill: GitLab CI",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Shipped the billing-export API at Pinemark end to end",
+        "status": "corroborated",
+        "conflicting_interview_claims": []
+      },
+      {
+        "cv_claim": "Helped migrate the Halcyon monolith's background jobs to a queue, reducing timeout errors",
+        "status": "uncorroborated",
+        "conflicting_interview_claims": []
+      }
+    ],
+    "discrepancy_summary": []
+  }
+]
